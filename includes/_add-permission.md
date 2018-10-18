@@ -36,7 +36,7 @@ curl "https://example.com/api/v2/permissions" \
   -d '
   {
     "path": "/example-directory/example-specific-credential",
-    "actor": "uaa-user:106f52e2-5d01-4675-8d7a-c05ff9a2c081"
+    "actor": "uaa-user:106f52e2-5d01-4675-8d7a-c05ff9a2c081",
     "operations": ["read", "write"]
   }' \
   -H "authorization: bearer [token]" \
