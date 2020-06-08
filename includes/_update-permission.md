@@ -54,17 +54,19 @@ This request updates the operations for a permission keeping the same path and a
 
 ### HTTP Request
 
-`POST: https://example.com/api/v2/permissions`
+`PUT: https://example.com/api/v2/permissions`
+
+`PATCH: https://example.com/api/v2/permissions`
 
 ### Request Parameters
 
 Parameter | Default | Required | Type | Description
 --------- | --------- | --------- | --------- | -----------
 uuid      | none | yes | string | The permission uuid that was returned when a permission was created
-path      | none | yes | string | The path of the permission you would like to update the operations for
-actor | none | yes | string | The actor that you would like to update the operations for
+path      | none | yes<sup>1</sup> | string | The path of the permission you would like to update the operations for
+actor | none | yes<sup>1</sup> | string | The actor that you would like to update the operations for
 operations | none | yes | array of strings | The new list of operations you would like to update this permission for
 
-<sup>1</sup> Authentication-specific identities [explained here.](https://github.com/cloudfoundry-incubator/credhub/blob/master/docs/authentication-identities.md) <br>
-<sup>2</sup> Supported operations: read, write, delete, read_acl, write_acl
+ <sup>1</sup> Value required for a PUT request but forbidden for a PATCH request.
+
 
