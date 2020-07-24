@@ -1,5 +1,11 @@
 # Regenerating Credentials
 
+| Long Flag     | Short Flag | Used For Type         | Description                                                                                                        |
+|---------------|------------|-----------------------|--------------------------------------------------------------------------------------------------------------------|
+| --name        | -n         | All                   | Name of the credential to regenerate                                                                               |
+| --output-json | -j         | All                   | Return response in JSON format                                                                                     |
+| --metadata    | n/a        | All                   | Sets metadata on the regenerated credential. The existing metadata is persisted by default. To clear the existing metadata, use this flag and pass in an empty json object. |
+
 ## Regenerate
 
 Set a credential with a generated value using the same attributes as the stored value

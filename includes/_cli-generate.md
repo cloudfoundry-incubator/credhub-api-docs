@@ -27,6 +27,7 @@
 | --ca                |            | Certificate           | Name of CA used to sign the generated certificate                                                             |
 | --is-ca             |            | Certificate           | The generated certificate is a certificate authority                                                          |
 | --self-sign         |            | Certificate           | The generated certificate will be self-signed                                                                 |
+| --metadata          | n/a        | All                   | Sets additional metadata on the credential                                                                    |
 
 ## Type: Password
 

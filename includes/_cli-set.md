@@ -12,6 +12,8 @@
 | --public      | -u         | SSH, RSA              | Sets the public key from file or value                                                                             |
 | --username    | -z         | User                  | Sets the username value of the credential                                                                          |
 | --password    | -w         | User, Password        | Sets the password value of the credential                                                                          |
+| --output-json | -j         | All                   | Return response in JSON format                                                                                     |
+| --metadata    | n/a        | All                   | Sets additional metadata on the credential                                                                         |
 
 
 
