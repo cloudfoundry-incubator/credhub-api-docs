@@ -17,7 +17,7 @@ user$ credhub regenerate --name '/example-password'
 id: 67fc3def-bbfb-4953-83f8-4ab0682ad675
 name: /example-password
 type: password
-value: 3t6Y2OFP0jQIcLnki1h7p3NtSfDx4l9bamr1ja6R
+value: <redacted>
 version_created_at: 2017-01-01T04:07:18Z
 ```
 
