@@ -40,7 +40,7 @@ user$ credhub generate --type password --name '/example-password'
 id: 67fc3def-bbfb-4953-83f8-4ab0682ad675
 name: /example-password
 type: password
-value: 3t6Y2OFP0jQIcLnki1h7p3NtSfDx4l9bamr1ja6R
+value: <redacted>
 version_created_at: 2017-01-01T04:07:18Z
 ```
 
@@ -55,10 +55,7 @@ user$ credhub generate --type user --name '/example-user'
 id: 67fc3def-bbfb-4953-83f8-4ab0682ad675
 name: /example-user
 type: user
-value:
-  username: FQnwWoxgSrDuqDLmeLpU
-  password: 6mRPZB3bAfb8lRpacnXsHfDhlPqFcjH2h9YDvLpL
-  password_hash: $6$h3b3JsG5$MnrPIrF6T3zAWk9uaun64vWY.vaBQ5nTRFZjjVqKuDWccxWXn8n6vstQykXEReamb4GYh2q1HC7vFy11wflXd0
+value: <redacted>
 version_created_at: 2017-01-01T04:07:18Z
 ```
 
@@ -73,19 +70,7 @@ user$ credhub generate --type certificate --name '/example-certificate' --common
 id: 67fc3def-bbfb-4953-83f8-4ab0682ad675
 name: /example-certificate
 type: certificate
-value:
-  root: |
-    -----BEGIN CERTIFICATE-----
-    ...
-    -----END CERTIFICATE-----
-  certificate: |
-    -----BEGIN CERTIFICATE-----
-    ...
-    -----END CERTIFICATE-----
-  private_key: |
-    -----BEGIN RSA PRIVATE KEY-----
-    ...
-    -----END RSA PRIVATE KEY-----
+value: <redacted>
 version_created_at: 2017-01-01T04:07:18Z
 ```
 
@@ -100,15 +85,7 @@ user$ credhub generate --type rsa --name '/example-rsa'
 id: 67fc3def-bbfb-4953-83f8-4ab0682ad675
 name: /example-rsa
 type: rsa
-value:
-  public_key: |
-    -----BEGIN PUBLIC KEY-----
-    ...
-    -----END PUBLIC KEY-----
-  private_key: |
-    -----BEGIN RSA PRIVATE KEY-----
-    ...
-    -----END RSA PRIVATE KEY-----
+value: <redacted>
 version_created_at: 2017-01-01T04:07:18Z
 ```
 
@@ -124,12 +101,7 @@ user$ credhub generate --type ssh --name '/example-ssh'
 id: 67fc3def-bbfb-4953-83f8-4ab0682ad675
 name: /example-ssh
 type: ssh
-value:
-  public_key: ssh-rsa AAAAB3NzaC1y...W9RWFM1
-  private_key: |
-    -----BEGIN RSA PRIVATE KEY-----
-    ...
-    -----END RSA PRIVATE KEY-----
+value: <redacted>
 version_created_at: 2017-01-01T04:07:18Z
 ```
 
